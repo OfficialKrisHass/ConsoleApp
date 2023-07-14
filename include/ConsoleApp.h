@@ -1,0 +1,5 @@
+namespace Console {
+
+    void Initialize();
+
+}
