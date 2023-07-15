@@ -2,16 +2,17 @@
 
 #include <EntryPoint.h>
 #include <ConsoleApp.h>
+#include <Logger.h>
 
 int PreInit() {
 
-    std::cout << "Console App Pre Init Example!\n\n";
+    Console::Log("Console App Pre Init Example!\n");
     return 0;
 
 }
 int PostInit() {
 
-    std::cout << "Console App Post Init Example!\n";
-    return 1;
+    Console::Log("Console App Post Init Example!");
+    return 0;
 
 }
